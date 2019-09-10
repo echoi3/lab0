@@ -2,10 +2,45 @@
 <html>
     <head>
         <title>My Fun Facts!</title>
+        <link rel="stylesheet" href="mystyle.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <style>
+                table, th, td {
+                  border: 1px solid black;
+                  border-collapse: collapse;
+                }
+        </style>
     </head>
     <body>
-        Hello, world!
-        <p>If you'd like to go back to My Webpage, please click this <a href="index.html">link</a>.</p>
-        <p>If you'd like to navigate to About Me Page, please click this <a href="me.html">link</a>.</p>
+        <img src="world.jpg" width="400" height="400" alt="world" class='center'>
+        I travel abroad every year!
+        <p>Where I Traveled</p>
+        <table style="width:60%">
+            <tr class='background'>
+              <th>Country</th>
+              <th>City</th> 
+              <th>When</th>
+            </tr>
+            <tr>
+              <th>Czech Republic</th>
+              <th>Prague</th>
+              <th>March 2019</th>
+            </tr>
+            <tr>
+              <th>New Zealand</th>
+              <th>Christchurch, Auckland</th>
+              <th>August 2018</th>
+            </tr>
+            <tr>
+              <th>Japan</th>
+              <th>Fukuoka</th>
+              <th>May 2018</th>
+            </tr>
+        </table>
+        <div class='center'>
+            <h2>Where You Can Navigate</h2>
+            <a href="index.html"><button type="button" class="btn btn-primary">My Webpage</button></a>
+            <a href="me.html"><button type="button" class="btn btn-default">About Me</button></a>
+        </div>
     </body>
 </html>
