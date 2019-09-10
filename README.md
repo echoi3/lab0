@@ -1,5 +1,6 @@
 # lab0
-Eun Seuk Choi \\
+Eun Seuk Choi 
+
 Lab 0 for CS100, Fall 2019
 
 This project is about introduction of myself and my funfacts about traveling. It explains my academic and professional background and where I traveled for a past few years. 
