@@ -20,3 +20,7 @@ img {
 .background {
     background-color: coral;
 }
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+}
